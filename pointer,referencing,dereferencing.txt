@@ -23,3 +23,7 @@ cout<<*(arr+2)<<endl; it gives 3rd element
 if we remove star it gives address
 cout<<(arr)<<endl; it gives address 1st element
 cout<<(arr+2)<<endl; it gives address 3rd element
+
+arr[i] is by default treated as *(arr+i) by the compiler 
+
+thats how array works internally and by this we can easily understand the working of pointers too.
