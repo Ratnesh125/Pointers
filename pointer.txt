@@ -1,0 +1,6 @@
+pointer store address
+int *ptr=&(element)
+& ampersand gives address of element
+int x;
+&x -> 0x2454634 ampersand is referencing (means gives address)
+*ptr -> star is deferencing(means gives value)
