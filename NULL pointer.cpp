@@ -22,3 +22,15 @@ int main()
     return 0;
 }
 //so to avoid wild pointer condition we always put a condition
+
+//we can initialize pointer as 0;
+int *ptr=0;
+// this is valid 
+// but if we try to initialize pointer as 10 or any other value 
+int *ptr=10;
+// this is not valid 
+// because NULL is a macro of 0
+// means 
+#define NULL 0
+
+
