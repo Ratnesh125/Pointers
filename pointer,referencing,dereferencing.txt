@@ -25,5 +25,5 @@ cout<<(arr)<<endl; it gives address 1st element
 cout<<(arr+2)<<endl; it gives address 3rd element
 
 arr[i] is by default treated as *(arr+i) by the compiler 
-ptr[i] so this is also correct
+ptr[i] so this is also correct 
 thats how array works internally and by this we can easily understand the working of pointers too.
