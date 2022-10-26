@@ -4,3 +4,22 @@ int *ptr=&(element)
 int x;
 &x -> 0x2454634 ampersand is referencing (means gives address)
 *ptr -> star is deferencing(means gives value)
+
+int arr[]={3,4,22,3,4};
+arr[2];
+in this 'arr' is storing address of 1st element and 2 means return next to next address
+that how arr[2] return 3rd element
+we can also acces like this:-
+1st store arr in pointer variable coz pointer stores address and arr is address(& 1st element)
+int *ptr=arr;
+then access using pointers
+cout<<*(ptr)<<endl; it gives 1st element
+cout<<*(ptr+2)<<endl; it gives 3rd element
+or
+directly without pointer boz we know arr is storing address so it is refrencing so we can dereference it using *
+cout<<*(arr)<<endl; it gives 1st element
+cout<<*(arr+2)<<endl; it gives 3rd element
+
+if we remove star it gives address
+cout<<(arr)<<endl; it gives address 1st element
+cout<<(arr+2)<<endl; it gives address 3rd element
